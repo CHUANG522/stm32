@@ -11,6 +11,7 @@ int main(void)
   Motor_Init();
 	Motor_SetSpeed(0);
 // 这是一次测试git的改动
+	//还再吗
     OLED_ShowString(1,1,"Num:");
 
     while (1)
