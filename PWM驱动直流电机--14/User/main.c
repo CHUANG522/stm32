@@ -10,7 +10,7 @@ int main(void)
     OLED_Init();
   Motor_Init();
 	Motor_SetSpeed(0);
-
+// 这是一次测试git的改动
     OLED_ShowString(1,1,"Num:");
 
     while (1)
